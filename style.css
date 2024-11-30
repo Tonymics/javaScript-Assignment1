@@ -20,7 +20,7 @@ html {
     width: 90vw;
     margin: 0 auto;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   display: flex;
