@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .container {
+    line-height: 2em;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: aqua; */
+  }
+
+  .item-one {
+    margin-top: 8px;
+  }
+
+blockquote {
+    position: relative;
+    right: -500px;
+    width: 40vw;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 0 0 0 100px;
+    padding: .5em 10px;
+    display: inline-block;
+    white-space: pre;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+  }
+
